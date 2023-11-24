@@ -1,0 +1,1 @@
+Simple Class for benchmarking in Javascript and Python.
