@@ -7,10 +7,10 @@ import { Benchmark } from "./benchmark.js"
 const benchmark = new Benchmark("My Console Name")
 
 benchmark
-    .it("Some other thing", () => {
+    .it("My EMA", () => {
         ta.ema(close, 10)
     })
-    .it("Something", () => {
+    .it("My HMA", () => {
         ta.hma(close, 10)
     })
     // as much as you want it()
